@@ -12,6 +12,7 @@
 <details>
 <summary> Access control for the resources </summary>
 <br>
+ 
 The users of this project will require to verify through [Multi-Factor Authentication](https://aws.amazon.com/iam/features/mfa/) system before getting access to the resources. 
 
 After successful login to the AWS management console, access to the resources will be determined by the predefined Identity Access Management [IAM](https://aws.amazon.com/iam/) roles.
@@ -167,34 +168,34 @@ The notification can be made through an email which will notify the clients abou
 The steps of creating a SNS for a S3 bucket is as follows-
 
 
-![image](https://drive.google.com/uc?export=view&id=116MPKdoIrBPNMuQCVimQVBpW98wsi9fX)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-1.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=11DNJGbeI5en5hdxBgvy1nFc_MouEew7L)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-2.jpg)
 
 The policy of the SNS topic is needed to be changed to direct to the S3 bucket.
-![image](https://drive.google.com/uc?export=view&id=11EoEc1mkcB7JdTXSy5IRikeCGsyWPhNq)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-3.jpg)
 
 After the creation of the SNS topic, a subscription is needed to be created to enable communication with the client.
-![image](https://drive.google.com/uc?export=view&id=11TNtF43ATZhPu3-eqtk8uoxDyzPkFNWV)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-4.jpg)
 
 Email is being configured to be sent to the client to keep provide them with all the necessary updates. 
-![image](https://drive.google.com/uc?export=view&id=11j0oNM1v8Q80RGwYWJkB2fYvZbbTCaZE)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-5.jpg)
 
 The client needs to confirm the subscription.
-![image](https://drive.google.com/uc?export=view&id=11yNj-bAMqRi7BydFUY2A_l7alM33_K93)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-6.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=11zEzNnEVURECcTYlfQ4I6FW9cxjU9QQW)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-7.jpg)
 
 An event notifactaion is created to nofify the clint of any cahanges in the s3 bucket.
-![image](https://drive.google.com/uc?export=view&id=121wSmsj81FaEm0PkxrfZRceM0MSGyq8h)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-s3-8.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=125fd1HXtPZ8snPC9FhkrRi9V-4QV0ucn)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-s3-9.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=12FlSsaU4HRtqZXCoIPtJq1HTlC367bjX)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-s3-10.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=12GwxmvazoQ8trQkrYCWuXRPmtRQNChbc)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-s3-11.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=12IU4mxLw6GULmeX0RKvv78mGNR7Y14Sr)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/sns-s3-12.jpg)
 
 </details>
 
@@ -206,11 +207,11 @@ An event notifactaion is created to nofify the clint of any cahanges in the s3 b
 
 As a primary data storage, a S3 bucket is being created-
 
-![image](https://drive.google.com/uc?export=view&id=10eb2aO9F00dXZs_ikJaVCdQwjF2rOR-D)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/s3-1.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=10eb9t7fsKEHkfhjlBHwEQbSRcsT31EUf)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/s3-2.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=10fkTM3lx5nZYxaAn44Awl2liMp962QHr)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/s3-3.jpg)
 </details>
 
 <details>
@@ -220,15 +221,15 @@ S3 Glacier Archive enables storing infrequently accessed data in a cost efficien
 
 Steps of configuring a S3 Glacier Archive is as follows-
 
-![image](https://drive.google.com/uc?export=view&id=10uFTahwAHE5B0hSPa6t_6Tam6LaJce42)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/glacier-1.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=1111LGBQC3GO-SY6RS2QR-fLbtafVTO7I)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/glacier-2.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=1143jgU45qpZ2vWYlsCouIB20jqHXQY4y)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/glacier-3.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=114SIb0BsBijfxlReq74i2DwSFnKxmEJN)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/glacier-4.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=1167N5p9BoojF2mU0aBFFm2Vx3YJckOTi)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/glacier-5.jpg)
 </details>
 
 ### Creating Database
@@ -240,9 +241,9 @@ Amazon RDS is being selected as the AWS service to create and host the database 
 
 The steps are as follows-
 
-![image](https://drive.google.com/uc?export=view&id=12LggCQknsBrmgLk9hqS-nL33vpI9aUFU)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/rds-1.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=12ROWgLA5pjY7NrpfiLlE2iQTmTPbKTAL)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/rds-2.jpg)
 
 
 </details>
