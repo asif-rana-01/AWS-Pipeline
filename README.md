@@ -44,7 +44,7 @@ The deployment status of the IoT sensors is required to be stored in a database 
 
 #### Sample Relational Database
 
-  ![image](https://drive.google.com/uc?export=view&id=1K081OZOpeIAYljiD2SgfijgX6qpNjuzv)
+  ![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/Database%20Schema.png)
 
 
 </details>
@@ -78,23 +78,25 @@ MFA is enabled for the root account by the following steps-
 i)	Selecting My Security Credentials from the top corner drop down menu. 
 
 
-![image](https://drive.google.com/uc?export=view&id=1-0WZa1s8r3w8GZ2ZQEtZhCT-0nMfrzoo)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/Screenshot_4.jpg)
 
+
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/mfa-1.jpg)
+
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/mfa-2.jpg)
+
+ 
 ii)	Scan the QR code by using a virtual MFA application that supports the TOTP standard.
-
-![image](https://drive.google.com/uc?export=view&id=1-7HGM1FNE10ZBX71ZIQcPJSSad6Ra2Wg)
-
-![image](https://drive.google.com/uc?export=view&id=1-F9syVCFhOA2-vMzfDAn3gb_EU1-jfTv)
-
-![image](https://drive.google.com/uc?export=view&id=1-FI6NelxuPuy6QOvdPBltOt1kQQxyFqB)
-
-![image](https://drive.google.com/uc?export=view&id=1W1qSmOfYDdm7hy0duNJVp0dMiabLMyAw)
-
-![image](https://drive.google.com/uc?export=view&id=1-bkgDkPdRfyqp-ySMiKx23LktCP8OKuA)
+ 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/mfa-3.jpg)
+ 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/mfa-4.png)
+ 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/Screenshot_5.jpg)
 
 iii)	After placing the generated codes, the MFA device would be authenticated for the account.
 
-![image](https://drive.google.com/uc?export=view&id=1-kTwjMlpVVA-vaztlxUH162Vl_XOpoe3)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/Screenshot_6.jpg)
 
 </details>
 
@@ -105,29 +107,29 @@ A user can be created by using the [IAM](https://aws.amazon.com/iam/) feature of
 
 Steps for creating a user- 
 
-![image](https://drive.google.com/uc?export=view&id=1-or-VtqeG8bsc7OYY47h2skolvlQWCQV)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-1.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=1-qScojPQi_bZv0fRygq_tGFynBvT0Njo)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-2.jpg)
 
 Assigning a user name and credentials
 
-![image](https://drive.google.com/uc?export=view&id=106oEO-2kFs5Aq6SDfO7C99rYLfJspvXN)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-3.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=108PdAH8wn4A6LDt06EUxzemTrAefCyRc)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-4.jpg)
 
 Creating a user group for ease of managing the users
 
-![image](https://drive.google.com/uc?export=view&id=10Fa0QsnmK7SNgN03w2hGcZXkO79hA4BB)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-5.jpg)
 
 Assigning the roles to the user according to business use
-![image](https://drive.google.com/uc?export=view&id=10RIP-TkO2XiotINdTIWvGkjKw4vGcBVE)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-6.jpg)
 
 User has been created
-![image](https://drive.google.com/uc?export=view&id=10RNgHcJIbw79GfcBHhCNzfsHYOdOieJg)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-7.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=10STRRCdGwgf7ml1atuLAq41S7mMRxJu4)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-8.jpg)
 
-![image](https://drive.google.com/uc?export=view&id=10XvTMFyCdJLXrqlPAW2NW5dzZfVXVP60)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/iam-9.jpg)
 
 </details>
 
@@ -148,14 +150,14 @@ Using the AWS CLI console the directory of the object is passed along with the s
 ```bash
   aws s3 presign [s3 directory of the file]
 ``` 
-![image](https://drive.google.com/uc?export=view&id=10ayuP-AQtn1OvuksBIobod4KRcAL0olp)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/api-2.jpg)
 
 
 After the above instruction is given, the CLI console return a link to the file which can then be shared with the client.
-![image](https://drive.google.com/uc?export=view&id=10bhj_cf4-uBEFoAy6GTgl1jRUWoVXGdI)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/api-3.jpg)
 
 Demo: File accessed through presigned URL
-![image](https://drive.google.com/uc?export=view&id=10cX8Hg9_nsYXwUmZ5QPmGs-fPfMTDIvT)
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/api-4.jpg)
 </details>
 <details>
 <summary> Notifying Changes to Clients </summary>
