@@ -149,7 +149,16 @@ User has been created
 
 </details>
 
+<details>
+<summary> Resource monitoring </summary>
+<br>
+ 
+AWS cloud trail can be used to monitor the activities of the users and the deployed resources
 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/cloudtrail.png)
+
+ </details>
+ 
 ### Access for Clients 
 
 <details>
@@ -304,5 +313,34 @@ In order to upload the pretarined model to AWS platform the [model_ezsm.py](http
 <br>
 
 An endpoint for the model is needed to be crerated to carry out predictions. Detail procedutre of creating the endpoint for the model can be carried out [here](https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateEndpoint.html)
+
+</details>
+
+
+### Cost Management
+
+<details>
+<summary> Billing </summary>
+<br>
+
+ The billing section in AWS can be used to monitor the cost of the resources consumed
+
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/billing-1.png)
+
+Further information regarding the cost can be gathered through the 'Cost Explorer' and 'Billing Details' tabs
+ 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/billing-2.png)
+ 
+ 
+</details>
+
+<details>
+<summary> Cost Monitoring </summary>
+<br>
+
+AWS cloud watch can be used to monitor the resource usage and determine any bottlenecks 
+ 
+![image](https://github.com/asif-rana-01/COS80028-S2-Asif-Rana-102866893/blob/main/ref_images/cloudwatch.png)
+
 
 </details>
